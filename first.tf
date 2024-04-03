@@ -14,7 +14,8 @@ variable "osName"{
 }
 provider "mycloud"{
 	region = "ap-south-1"
- 	
+ 	access_key ="AKIA47CRVTOEPBTWFLF4"
+	secret_key ="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"
  }
 
 resource "aws_instance" "os2" {
